@@ -1,0 +1,49 @@
+.box{
+    height:800px;
+    width:auto; 
+    display:flex;
+    justify-content:center;
+
+}
+div{
+    display:flex;
+    flex-direction:column;
+    background-color:white;
+    height:300px;
+    width:400px;
+    justify-content: center;
+    align-items: center;
+    border:1px solid transparent;
+    border-radius:10px;
+
+}
+h1{
+    text-align:center;
+}
+.label{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    height:100px;
+}
+.convert{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    height:100px;
+}
+.result{
+    height:80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100px;
+}
+#convertBtn{
+    background-color: rgba(3, 169, 240, 0.733);
+    color:white;
+    width: 150px;
+    border:1px solid transparent;
+    border-radius:10px;
+    
+}
